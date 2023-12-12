@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: erp
+    schema: source_Macroeconomics
+    description: US macroeconomic data.
+    tables:
+      - name: datacommons_timeseries
+        description: table with Quantity Economic Activity Nominal Gross Domestic Production (GDP).
+        
+      - name: geography_relationships
+        description: Table with geographic relationship.
