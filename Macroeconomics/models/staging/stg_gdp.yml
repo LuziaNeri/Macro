@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_gdp
+    columns:
+      - name: country_id
+        description:  Original country key.
+        
+      - name: variable
+        description: Amount EconomicActivity GrossDomesticProduction Nominal.
+          
+      - name: variable_name
+        description: Nominal GDP.
+
+      - name: gdp_date
+        description: GDP date.
+
+      - name: gdp_value
+        description: value of GDP in dollars. 
+
+      - name: unit
+        description: Monetary unit (USD).
