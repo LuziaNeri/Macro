@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_construction_trend
+    columns:
+      - name: year_construction_trend
+        description: it is the year analyzed.
+             
+      - name: month_construction_trend
+        description: it is the month analyzed.
+    
+      - name: construction_type
+        description: it is the type of construction.
+
+      - name: construction_category
+        description: it is the category of construction.
+          
+      - name: projects_value
+        description: it is the value of project.
+
+      - name: projects_count
+        description: it is the number of project.

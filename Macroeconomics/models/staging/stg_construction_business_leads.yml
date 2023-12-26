@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_construction_business_leads
+    columns:
+      - name: year
+        description: it is the year analyzed.
+             
+      - name: business_name
+        description: it is the name of business lead.
+    
+      - name: business_type
+        description: it is the type of business (owner, builder, designer) .
+
+      - name: project_class
+        description: it is class of project (residential,commercial, solar)
+          
+      - name: project_type
+        description: it is the type  of project (Single Family Homes, Reroof Commercial, etc.).
+    
+      - name: projects_value
+        description: it is the value of project.
+
+      - name: projects_count
+        description: it is the number of project.

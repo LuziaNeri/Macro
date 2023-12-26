@@ -13,3 +13,13 @@ sources:
       
       - name: REA_SAMPLE
         description: Table with real estate analyzer.
+      
+      - name: CONSTRUCTION__ROJECTS_TREND_SAMPLE
+        description: Table with construction project trend in 2022.
+        tests:    
+              - not_nul
+    
+      - name: CONSTRUCTION__BUSINESS_LEADS_SAMPLE
+        description: Table with construction business leads in 2023.
+        tests:    
+              - not_nul
