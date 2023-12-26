@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sgt_rea
+    columns:
+      - name: issue_date
+        description: data input data.
+        
+      - name: city
+        description: Name of the city.
+    
+      - name: state_id
+        description: state acronym.
+    
+      - name: region_id
+        description: region acronym. 
+
+      - name: primary_propertry
+        description: primary property type.
+    
+      - name: type_construction
+        description: type of construction.
+    
+      - name: value
+        description: the value of the construction contract to build the the project (in millions).
+
+      - name: stage_construction
+        description: construction stage.
+    
+      - name: stage_construction
+        description: construction stage.
+    
+      - name: units
+        description: number of dweling or rooms.
+    
+      - name: target_start_construction_date
+        description: expected date to begin construction.
+    
+      - name: target_complete_construction_date
+        description: date anticipated construction completion.
+    
+      - name: is_new
+        description: if it is a new construction.
+      
+      - name: type_owner
+        description: private or public owner.

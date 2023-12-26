@@ -21,7 +21,7 @@ with
     
     , transformations as (
             select
-                {{ dbt_utils.surrogate_key(['country_id', 'country_name']) }} as sk_gdp
+                {{ dbt_utils.generate_surrogate_key(['country_id', 'country_name']) }} as sk_gdp
                 , *      
             from joined
             where country_id = 'country/USA'

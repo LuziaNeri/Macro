@@ -10,3 +10,6 @@ sources:
         
       - name: geography_relationships
         description: Table with geographic relationship.
+      
+      - name: REA_SAMPLE
+        description: Table with real estate analyzer.
