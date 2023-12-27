@@ -1,7 +1,7 @@
 with 
     source_construction_business_leads as (
         select
-            cast(cast( YEAR as string)as date) as year
+            parse_date('%Y', CAST(YEAR as string)) as year_date
             , cast(NAME as string) as business_name
             , cast(TYPE as string) as business_type
             , cast(PROJECT_CLASS as string) as project_class

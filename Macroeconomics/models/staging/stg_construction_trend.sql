@@ -1,8 +1,7 @@
 with 
     source_construction_trend as (
         select
-            cast(cast(YEAR as string)as date) as year_construction_trend
-            , cast(MONTH as string) as month_construction_trend
+            parse_date('%Y-%m', concat(cast(YEAR as STRING), '-', cast(MONTH as string))) as date_construction_trend
             , cast(CLASS as string) as construction_type
             , cast(CATEGORY as string) as construction_category
             , cast(PROJECTS_VALUE as numeric) as projects_value

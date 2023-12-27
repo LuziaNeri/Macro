@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_construction_permits_second
+    columns:
+      - name: date_permits
+        description: it is the date analyzed.
+             
+      - name: state
+        description: it is the state construction.
+    
+      - name: city
+        description: it is the city construction.
+
+      - name: building_class
+        description: it is the category of construction.
+          
+      - name: projects_value
+        description: it is the value of project.
+
+      - name: projects_status
+        description: it is the status  of project.

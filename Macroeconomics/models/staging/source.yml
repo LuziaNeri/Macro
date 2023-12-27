@@ -16,10 +16,12 @@ sources:
       
       - name: CONSTRUCTION__ROJECTS_TREND_SAMPLE
         description: Table with construction project trend in 2022.
-        tests:    
-              - not_nul
-    
+            
       - name: CONSTRUCTION__BUSINESS_LEADS_SAMPLE
         description: Table with construction business leads in 2023.
-        tests:    
-              - not_nul
+              
+      - name: CONSTRUCTION__PERMITS_SAMPLE_1
+        description: Table with buildings permits betewen 2019-2020.
+            
+      - name: CONSTRUCTION__PERMITS_SAMPLE_2
+        description: Table with buildings permits in 2022.
